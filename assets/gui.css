@@ -1,0 +1,196 @@
+body {
+    background-color: #181027;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+    margin-left: 100px;
+    margin-top: 25px;
+    margin-right: 100px;
+}
+
+.nav {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 0px;
+
+}
+
+.landingimg {
+    width: 70%;
+
+}
+
+.hlanding {
+    padding-top: 15%;
+    padding-left: 5%;
+}
+
+img.toplogo {
+    height: 50px;
+    padding: 0px;
+}
+
+ul {
+    list-style-type: none;
+    margin-left: 30px;
+    padding: 0;
+    height: 30px;
+}
+
+ul li {
+    display: inline-block;
+    padding: 15px;
+    padding-right: 0px;
+    margin: 0;
+}
+
+ul li:hover {
+    border-bottom: thin solid white;
+}
+
+
+.content {
+    margin-left: 100px;
+    margin-top: 25px;
+    margin-right: 100px;
+}
+
+.container button {
+    background-color: rgb(255, 113, 24);
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 16px;
+    width: 150px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    opacity: 0.8;
+}
+
+button:hover {
+    opacity: 1;
+}
+
+.phone {
+    display: flex;
+    justify-content: right;
+    flex-wrap: wrap;
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.footer {
+    background-color: #2a1c45;
+    min-height: 300px;
+}
+
+.welcome {
+    min-height: 300px;
+    text-align: centre;
+}
+
+.welcome h3 {
+    margin: 75px 50px 25px 125px;
+}
+
+.welcome h4 {
+    margin: 0px 50px 100px 125px;
+}
+
+.journey {
+    min-height: 300px;
+}
+
+.journey h4 {
+    margin: 75px 50px 25px 0px;
+}
+
+.journey h6 {
+    margin: 0px 50px 25px 0px;
+}
+
+.journey button {
+    padding: 10px 20px;
+    border-radius: 16px;
+    background-color: transparent;
+    color: white;
+    border-color: rgb(255, 93, 24);
+    width: 390px;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .container{
+        margin: 0px;
+    }
+
+    img.toplogo {
+        height: 75px;
+    }
+
+    .container button {
+        width: 300px;
+        margin: 25px 130px 0px 140px;
+    }
+
+    .hlanding {
+        text-align: center;
+    }
+
+    .footer {
+        min-height: 300px;
+    }
+
+    .journey {
+        text-align: center;
+    }
+
+    .welcome {
+        min-height: 50px;
+    }
+
+    .welcome h3 {
+        display: none;
+    }
+
+    .welcome h4 {
+        margin-bottom: 0px;
+        margin-left: 25px;
+        margin-top: 10px;
+    }
+
+    .journey {
+        text-align: left;
+        font-size: large;
+        min-height: 50px;
+        display: inline-block;
+        padding-left: 25px;
+    }
+
+    .journey h4 {
+        margin-top: 0px;
+        margin-left: 25px;
+    }
+
+    .journey h6 {
+        margin-left: 25px;
+    }
+
+    .phone {
+        justify-content: center;
+    }
+
+    .journey button{
+        display: none;
+    }
+}
